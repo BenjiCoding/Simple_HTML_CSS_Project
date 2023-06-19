@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    background-color: darkblue;
+    padding-bottom: 100px;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 70px;
+}
+
+.top-header h3 {
+    color: white;
+    font-weight: bold;
+}
+
+ul li{
+    color: grey;
+    display: inline;
+    text-decoration: none;
+    margin: 10px;
+}
+
+h1{
+    color: White;
+    font-weight: bolder;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header p {
+    color: white;
+}
+
+img{
+    height: 200px;
+    width: 500px;
+}
+
+button{
+    background-color: lightblue;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    margin-top: 20px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.boxes-text {
+    display: flex;
+    justify-content: center;
+}
+
+.box-text{
+    margin-left: 38px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px
+}
+
+.first-part{
+    margin-bottom: 130px;
+}
+
+.first-part h2{
+    margin-top: 30px
+}
+
+.second-part{
+    background-color: grey;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    text-align: justify;
+    font-size: 30px;
+}
+
+span{
+    font-weight: bolder;
+    margin-left: 300px;
+}
+
+.last-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box{
+    background-color: blue;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    width: 800px;
+    height: 50px;
+    margin: 100px;
+    color: white;
+}
+
+footer{
+    color: grey;
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
